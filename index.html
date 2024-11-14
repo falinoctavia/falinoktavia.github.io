@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Falin Octavia</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #fce4ec; /* Soft pink */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cover Section */
+        .cover {
+            position: relative;
+            background-image: url('cover-image.jpg'); /* Ganti dengan gambar cover yang diinginkan */
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .cover h1 {
+            font-size: 48px;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .cover p {
+            font-size: 24px;
+            margin-top: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Foto Profil di Cover */
+        .cover img {
+            border-radius: 50%;
+            width: 150px; /* Ukuran foto */
+            height: 150px; /* Ukuran foto */
+            object-fit: cover;
+            border: 4px solid white;
+            position: absolute;
+            bottom: -80px; /* Posisi foto di bawah teks */
+            z-index: 1;
+        }
+
+        header {
+            background-color: #f48fb1;
+            padding: 40px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 36px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        .container {
+            width: 90%;
+            margin: 40px auto;
+            max-width: 1200px;
+        }
+
+        .about {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .portfolio, .education, .skills, .contact {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #e91e63;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-item {
+            display: inline-block;
+            width: 300px;
+            margin: 15px;
+            text-align: center;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .portfolio-item p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .skills ul, .education ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li, .education li {
+            background-color: #ffffff;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact a {
+            color: #e91e63;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        footer {
+            background-color: #f48fb1;
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Cover Section -->
+    <section class="cover">
+        <img src="foto-saya.jpg" alt="Falin Octavia"> <!-- Ganti dengan foto kamu -->
+        <h1>Selamat Datang di Portofolio Saya</h1>
+        <p>Falin Octavia | Desain Komunikasi Visual</p>
+    </section>
+
+    <header>
+        <h1>Falin Octavia</h1>
+        <p>Desain Komunikasi Visual | Mahasiswa UNPRI Medan</p>
+    </header>
+
+    <div class="container">
+
+        <!-- About Me -->
+        <section class="about">
+            <h2>Halo! Saya Falin Octavia</h2>
+            <p>Saya seorang mahasiswa Desain Komunikasi Visual di Universitas Prima Indonesia (UNPRI) Medan. Saya memiliki keahlian dalam desain grafis dan pengeditan foto, dan saya sangat bersemangat dalam mengeksplorasi kreativitas melalui berbagai proyek desain. Saya menguasai aplikasi seperti Adobe Illustrator, Photoshop, Lightroom, Blender, dan Canva.</p>
+        </section>
+
+        <!-- Education -->
+        <section class="education">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>SD, SMP, SMA di Methodist Lubuk Pakam</li>
+                <li>Universitas Prima Indonesia, DKV (Semester 3)</li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Adobe Illustrator</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Lightroom</li>
+                <li>Blender</li>
+                <li>Canva</li>
+            </ul>
+        </section>
+
+        <!-- Portfolio -->
+        <section class="portfolio">
+            <h2>Portofolio</h2>
+
+            <!-- Proyek 1 -->
+            <div class="portfolio-item">
+                <img src="gambar1.jpg" alt="Desain Logo">
+                <p>Desain Logo</p>
+            </div>
+
+            <!-- Proyek 2 -->
+            <div class="portfolio-item">
+                <img src="gambar2.jpg" alt="Desain Brosur">
+                <p>Desain Brosur</p>
+            </div>
+
+            <!-- Proyek 3 -->
+            <div class="portfolio-item">
+                <img src="gambar3.jpg" alt="Ilustrasi Digital">
+                <p>Ilustrasi Digital</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact">
+            <h2>Kontak Saya</h2>
+            <p>Email: <a href="mailto:falinoctavia@gmail.com">falinoctavia@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/falinoctaviaa">@falinoctaviaa</a></p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2024 Falin Octavia | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
